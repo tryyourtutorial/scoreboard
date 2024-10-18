@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.scoreboard {
+    width: 600px;
+    background-color: #3c3f43;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    font-size: 32px;
+    color: #e67e22;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.team {
+    text-align: center;
+    flex: 1;
+}
+
+.score {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.fouls {
+    font-size: 18px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#newgame {
+    background-color: red;
+}
+
+#newgame:hover {
+    background-color: #d00000;
+}
+
+.period {
+    text-align: center;
+    margin-top: 20px;
+}
